@@ -70,10 +70,10 @@ During this lab you will:
 
 - The core concept students needed to understand:
   Students need to understand how to use AI to understand a new application, read and understand the rule based and ML model, come up with good statements to test the scoring logic, and fixing the failed test cases.
-- Where students are most likely to struggle
+- Where students are most likely to struggle:
   Students will most likely struggle at the part of fixing failing test cases. They may try to add them in the sample posts rather than looking into their scoring system.
-- Where AI was helpful vs misleading
+- Where AI was helpful vs misleading:
   AI was helpful in understanding the code, what the functions should look like, and to test out multiple statements.
   AI was misleading when figuring out why some statements had incorrect outputs. It kept suggesting hard coding the failed test into the dataset, instead of trying to fix the logic.
-- One way they would guide a student without giving the answer
+- One way they would guide a student without giving the answer:
   I would guide the student to not hard code the statements, and rather focus on coming up with a good algorithm to score different statements. Adding more phrases helps the ML model but for the rule based one, we need to focus on the rules and not the examples.
