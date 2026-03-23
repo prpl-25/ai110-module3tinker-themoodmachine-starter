@@ -13,9 +13,15 @@ You may complete this model card for whichever version you used, or compare both
 Describe whether you used the rule based model, the ML model, or both.  
 Example: “I used the rule based model only” or “I compared both models.”
 
+I used both the rule based and ML model and compared the two.
+
 **Intended purpose:**  
 What is this model trying to do?  
 Example: classify short text messages as moods like positive, negative, neutral, or mixed.
+The model uses rules to score different statements, and then uses the score to categorize them as neutral, positive, negative.
+
+While the ML model learns rules against the dataset to categorize the statements.
+
 
 **How it works (brief):**  
 For the rule based version, describe the scoring rules you created.  

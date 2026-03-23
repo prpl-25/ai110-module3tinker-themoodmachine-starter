@@ -23,6 +23,21 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "wonderful",
+    "fantastic",
+    "thrilled",
+    "joyful",
+    "glad",
+    "grateful",
+    "blessed",
+    "ecstatic",
+    "delighted",
+    "cheerful",
+    "pumped",
+    "stoked",
+    "hyped",
+    "winning",
+    "vibing",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +51,16 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "miserable",
+    "frustrated",
+    "depressed",
+    "exhausted",
+    "hopeless",
+    "defeated",
+    "overwhelmed",
+    "dread",
+    "worried",
+    "disappointed",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +75,29 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "got a B on the exam, which is good... but I was really hoping for an A",
+    "lowkey proud of myself for finishing that project, but I am completely drained",
+    "just got the job offer!!! also terrified I am gonna mess it up",
+    "laughed all night with friends and still felt weirdly lonely on the way home",
+    "finally canceled plans and stayed in, and honestly it feels amazing",
+    "trying to stay positive, but my brain keeps replaying every awkward thing I said",
+    "I love getting stuck in traffic",
+    # Added examples — more balanced across all four labels
+    "this is the best day ever, no cap",
+    "I am so grateful for everything right now",
+    "highkey thrilled about the new semester",
+    "woke up feeling wonderful and ready to go",
+    "I passed my driving test!!!",
+    "honestly just vibing today :)",
+    "everything went wrong and I can not stop crying",
+    "I am so frustrated I could scream",
+    "failed the quiz and now I feel hopeless",
+    "nothing is going right today :(",
+    "just existing, not much going on",
+    "another day, another dollar I guess",
+    "got the promotion but now I am worried I will burn out",
+    "really happy for my friend but lowkey jealous ngl",
+    "the concert was amazing but my feet are destroyed",
 ]
 
 # Human labels for each post above.
@@ -65,6 +113,29 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",     # "got a B on the exam, which is good... but I was really hoping for an A"
+    "mixed",     # "lowkey proud of myself for finishing that project, but I am completely drained"
+    "mixed",     # "just got the job offer!!! also terrified I am gonna mess it up"
+    "mixed",     # "laughed all night with friends and still felt weirdly lonely on the way home"
+    "positive",  # "finally canceled plans and stayed in, and honestly it feels amazing"
+    "mixed",     # "trying to stay positive, but my brain keeps replaying every awkward thing I said"
+    "negative",  # "I love getting stuck in traffic"
+    # Added labels
+    "positive",  # "this is the best day ever, no cap"
+    "positive",  # "I am so grateful for everything right now"
+    "positive",  # "highkey thrilled about the new semester"
+    "positive",  # "woke up feeling wonderful and ready to go"
+    "positive",  # "I passed my driving test!!!"
+    "positive",  # "honestly just vibing today :)"
+    "negative",  # "everything went wrong and I can not stop crying"
+    "negative",  # "I am so frustrated I could scream"
+    "negative",  # "failed the quiz and now I feel hopeless"
+    "negative",  # "nothing is going right today :("
+    "neutral",   # "just existing, not much going on"
+    "neutral",   # "another day, another dollar I guess"
+    "mixed",     # "got the promotion but now I am worried I will burn out"
+    "mixed",     # "really happy for my friend but lowkey jealous ngl"
+    "mixed",     # "the concert was amazing but my feet are destroyed"
 ]
 
 # TODO: Add 5-10 more posts and labels.
